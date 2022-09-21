@@ -1,1 +1,2 @@
-# devops_pub_1
+# devops_pub_1 class
+learning git
