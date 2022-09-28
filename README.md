@@ -2,6 +2,9 @@
 learning git from github
 
 
+git push origin :<branch name> : to delete a branch from remote repo ( example "git push origin :feature/task-1")
+
+
 GIT COMMANDS
 
 git init : to initilaize an empty reposity
@@ -31,3 +34,4 @@ git status : to check the current status of the files in repo (like, untracked, 
 git log : to view the commit information 
 
 git push --set-upstream origin <branch name>
+18db3a76fefa271aad8b0be5593969f2b6c70ec0
