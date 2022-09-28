@@ -34,4 +34,28 @@ git status : to check the current status of the files in repo (like, untracked, 
 git log : to view the commit information 
 
 git push --set-upstream origin <branch name>
-18db3a76fefa271aad8b0be5593969f2b6c70ec0
+
+git branch -d <branch name> : to delete the branch from local repository.
+
+Note : the difference between git fetch and git pull are, git fetch will update the refences in local repo with remote repo ( example : if any new branch created. or any branch is updated with new commits)
+where as git pull will update the current content/changes
+
+
+create merge conflict scneria:
+
+1. create branch task-1 from master.
+
+2. create branch task-2 from master.
+
+
+3. change a file on task-1 (local).
+
+4. change the same file from task-2 (remote.local)
+
+5. merge tasks-1 to master (local, remote).
+
+6. task-2 to master.
+
+fix : git pull origin master in to your tasks-2 branch
+
+delete << and >> === lines
