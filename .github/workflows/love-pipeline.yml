@@ -1,4 +1,4 @@
-name: my first pipeline
+name: my first love pipeline
 
 on:
   push:
